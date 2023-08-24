@@ -1,0 +1,60 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.2rem 10%;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #f7f7f74d;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 5px #d8d8d894;
+    z-index: 5;
+}
+.headerContainer img {
+    width: 15rem;
+    height: auto;
+}
+.headerContainer a {
+    display: flex;
+    align-items: center;
+}
+.linkContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+@media (min-width: 768px) {
+    .headerContainer {
+        flex-direction: row;
+    }
+    .linkContainer {
+        gap: 8rem;
+    }
+}
+.navContainer {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.navContainer a {
+    font-size: 1.6rem;
+    font-weight: 700;
+    transition: color ease-out 0.25s;
+}
+.navContainer a:hover {
+    color: var(--primary);
+}
+.actionContainer {
+    display: flex;
+    gap: 2rem;
+}
+.actionContainer a img, .actionContainer button img {
+    width: 2.6rem;
+}
+.actionContainer button {
+    border: none;
+    background-color: transparent;
+}

@@ -1,0 +1,52 @@
+:root {
+  --primary: #aa6581;
+  --secundary: #503850;
+  --pink: #ffc5c1;
+  --pinkHard: #f99fa9;
+  --brown: #2a1e1e;
+  --black: #262626;
+  --white: #fafafa;
+  --gray: #c7c7c7;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 0;
+  background-color: #f3f3f3;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 400;
+}
+.container {
+  margin: 3rem 15%;
+}
+.textoSlider {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textoSlider h1 {
+  font-weight: 900;
+  color: var(--white);
+  font-size: 6rem;
+}
